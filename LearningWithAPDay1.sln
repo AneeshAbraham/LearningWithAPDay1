@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1000
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningWithAPDay1", "LearningWithAPDay1\LearningWithAPDay1.csproj", "{D701C5FA-16D5-457F-ACF9-0CFA2E9DD0A1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearningWithAPDay1", "LearningWithAPDay1\LearningWithAPDay1.csproj", "{D701C5FA-16D5-457F-ACF9-0CFA2E9DD0A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportingLibrary", "SupportingLibrary\SupportingLibrary.csproj", "{55704C80-984D-43AA-B66D-7C077CEA11E8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupportingLibrary", "SupportingLibrary\SupportingLibrary.csproj", "{55704C80-984D-43AA-B66D-7C077CEA11E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SupportingLibrary.Tests", "SupportingLibrary.Tests\SupportingLibrary.Tests.csproj", "{3C25E34D-350A-45A7-B432-E7B549E1275C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{55704C80-984D-43AA-B66D-7C077CEA11E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55704C80-984D-43AA-B66D-7C077CEA11E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55704C80-984D-43AA-B66D-7C077CEA11E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C25E34D-350A-45A7-B432-E7B549E1275C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C25E34D-350A-45A7-B432-E7B549E1275C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C25E34D-350A-45A7-B432-E7B549E1275C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C25E34D-350A-45A7-B432-E7B549E1275C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

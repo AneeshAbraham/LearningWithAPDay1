@@ -6,8 +6,24 @@ namespace SupportingLibrary
 {
     public class Calculator : ICalculator
     {
+        private readonly IValidatorService validatorService;
+
+        public Calculator(IValidatorService validatorService)
+        {
+            this.validatorService = validatorService;
+        }
+
         public int Add(int number1, int number2)
         {
+            try
+            {
+                validatorService.Validate(number1, number2);
+            }
+            catch(ArgumentException argumentException)
+            {
+                throw new InvalidOperationException($"Invalid inputs provided: details: {argumentException.Message}");
+            }
+           
             return number1 + number2;
         }
 
